@@ -60,14 +60,14 @@ binance_bot/
 
 Install dependencies:
 
-```bash
+
 pip install python-binance python-dotenv
 
-## Binance API Setup (Testnet)
+Binance API Setup (Testnet)
 
--Create Binance Futures Testnet API keys
+Create Binance Futures Testnet API keys
 
--In the project root, create a .env file:
+In the project root, create a .env file:
 
 BINANCE_API_KEY=your_testnet_api_key
 BINANCE_SECRET_KEY=your_testnet_secret_key
