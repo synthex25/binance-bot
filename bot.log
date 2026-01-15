@@ -1,0 +1,16 @@
+
+2026-01-15 19:12:08,694 | INFO | Limit Orders script started
+2026-01-15 19:12:08,694 | INFO | Validated inputs | Symbol=BTCUSDT, Side=BUY, Quantity=0.01, Price=10000.0
+2026-01-15 19:12:09,295 | INFO | Limit order placed: {}
+2026-01-15 19:14:18,120 | INFO | OCO Orders script started
+2026-01-15 19:14:18,120 | INFO | Validated OCO inputs | Symbol=BTCUSDT, Side=BUY, Qty=0.01, TP=45000.0, SL=39000.0
+2026-01-15 19:14:18,748 | INFO | Take-profit order placed: {}
+2026-01-15 19:14:19,023 | INFO | Stop-loss order placed: {}
+2026-01-15 19:17:04,326 | INFO | TWAP Strategy script started
+2026-01-15 19:17:04,326 | INFO | Validated TWAP inputs | Symbol=BTCUSDT, Side=BUY, TotalQty=0.05, Parts=5, Interval=5s, PerOrderQty=0.01
+2026-01-15 19:17:05,065 | INFO | TWAP order 1/5 placed | Qty=0.01 | Response={}
+2026-01-15 19:17:10,274 | INFO | TWAP order 2/5 placed | Qty=0.01 | Response={}
+2026-01-15 19:17:15,587 | INFO | TWAP order 3/5 placed | Qty=0.01 | Response={}
+2026-01-15 19:17:20,823 | INFO | TWAP order 4/5 placed | Qty=0.01 | Response={}
+2026-01-15 19:17:26,863 | INFO | TWAP order 5/5 placed | Qty=0.01 | Response={}
+2026-01-15 19:17:26,865 | INFO | TWAP execution completed successfully
