@@ -62,16 +62,26 @@ binance_bot/
 -Install dependencies:
 pip install python-binance python-dotenv
 
-## Binance API Setup (Testnet)
+binance_api_setup:
+  environment: Binance Futures Testnet
+  steps:
+    - step: Create API Keys
+      description: Create Binance Futures Testnet API keys from the Binance Testnet portal.
 
-1.Create Binance Futures Testnet API keys
+    - step: Create .env file
+      description: Create a file named .env in the project root directory.
 
-2.In the project root, create a .env file:
+    - step: Add API credentials
+      description: Add the following environment variables to the .env file.
+      variables:
+        BINANCE_API_KEY: your_testnet_api_key
+        BINANCE_SECRET_KEY: your_testnet_secret_key
 
-BINANCE_API_KEY=your_testnet_api_key
-BINANCE_SECRET_KEY=your_testnet_secret_key
+  notes:
+    - Do not commit the .env file to GitHub.
+    - All orders are executed on the Testnet.
+    - No real funds are used.
 
----
 How to Run
 
 All commands must be run from the project root directory.
