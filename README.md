@@ -20,7 +20,8 @@ All orders are executed on the **Binance Futures Testnet** for safety.
 ### Advanced Orders (Bonus)
 
 - ✅ OCO Orders (Futures-style simulation using TP + SL)
-- ✅ TWAP Strategy (Time-Weighted Average Price)
+  
+- ✅ TWAP Strategy (Time-Weighted Average Price
 
 ### Engineering Features
 
