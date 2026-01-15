@@ -40,12 +40,12 @@ binance_bot/
 │   ├── market_orders.py # Market orders
 │   ├── limit_orders.py # Limit orders
 │   ├── advanced/
-│   │   ├── oco.py # OCO strategy (TP + SL)
-│   │   └── twap.py # TWAP strategy
+│       ├── oco.py # OCO strategy (TP + SL)
+│       └── twap.py # TWAP strategy
 │
 ├── bot.log # Execution logs
 ├── README.md # Documentation
-└── report.pdf # Analysis & screenshots
+└── report.pdf # Analysis 
 
 
 ---
